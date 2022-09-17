@@ -18,12 +18,13 @@ body {
 
 #post1 {
     box-sizing: content-box;
-    width: 500px;
-    height: 400px;
+    width: 550px;
+    height: 480px;
     padding: 0px;
     border: 0px solid white;
     background-color: white;
     margin: auto;
+    
 
 }
 
@@ -39,4 +40,16 @@ img {
 
 .post1_header {
     display: flex;
+}
+
+.title {
+    margin-left: 1%;
+}
+
+.date {
+    margin-left: 70%;
+}
+
+p {
+    margin-left: 1%;
 }
