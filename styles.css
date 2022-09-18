@@ -4,11 +4,15 @@ body {
     margin: auto;
 }
 
-h1 {
-
+.header {
     min-width: 100%;
     height: 60px;
     background-color: white;
+}
+
+h1 {
+    position: relative;
+    margin: auto;
     text-align: center;
 }
 
@@ -24,8 +28,8 @@ body {
     border: 0px solid white;
     background-color: white;
     margin: auto;
-    
-
+    position: relative;
+    top: 60px;
 }
 
 .catpic {
@@ -52,4 +56,24 @@ img {
 
 p {
     margin-left: 1%;
+}
+
+#post2 {
+    box-sizing: content-box;
+    width: 550px;
+    height: 480px;
+    padding: 0px;
+    border: 0px solid white;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    top: 140px;
+}
+
+.post2_footer {
+    background-color: white;
+}
+
+.header2 {
+    
 }
